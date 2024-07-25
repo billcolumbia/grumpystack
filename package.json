@@ -1,0 +1,20 @@
+{
+  "name": "grumpy-stack",
+  "module": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run grumpy/scripts/dev.js",
+    "build": "bun run grumpy/scripts/build.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "alpinejs": "^3.14.1",
+    "chalk": "^5.3.0",
+    "htmx.org": "^2.0.1"
+  }
+}
